@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D11A07547BC62A2A34E2AB6 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B9F5D4CDCF40E60685B53A /* libPods-百思不得姐.a */; };
+		9B0A00431E07B8C000FB3C7E /* KeruiSeebigpicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A00411E07B8C000FB3C7E /* KeruiSeebigpicViewController.m */; };
+		9B0A00441E07B8C000FB3C7E /* KeruiSeebigpicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A00421E07B8C000FB3C7E /* KeruiSeebigpicViewController.xib */; };
+		9B0A00461E07D16100FB3C7E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0A00451E07D16100FB3C7E /* Photos.framework */; };
+		9B0F1A4B1E050F6700BE51BF /* KRVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F1A481E050F6700BE51BF /* KRVideoPlayerController.m */; };
+		9B0F1A4C1E050F6700BE51BF /* KRVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F1A4A1E050F6700BE51BF /* KRVideoPlayerControlView.m */; };
+		9B0F1A4D1E050FF100BE51BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29D7FC1E03E99200440467 /* AVFoundation.framework */; };
+		9B1BA3E81DF0022E00B58577 /* KeruiLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BA3E61DF0022E00B58577 /* KeruiLogInViewController.m */; };
+		9B1BA3E91DF0022E00B58577 /* KeruiLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BA3E71DF0022E00B58577 /* KeruiLogInViewController.xib */; };
+		9B1BA3ED1DF0095300B58577 /* KeruiResgLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BA3EB1DF0095300B58577 /* KeruiResgLoginViewController.m */; };
+		9B1BA3EE1DF0095300B58577 /* KeruiResgLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BA3EC1DF0095300B58577 /* KeruiResgLoginViewController.xib */; };
+		9B2426C11E13A686007F3D24 /* Keruivitebtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2426C01E13A686007F3D24 /* Keruivitebtn.m */; };
+		9B2548B61E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2548B51E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.m */; };
+		9B29D7FF1E03E9A700440467 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29D7FE1E03E9A600440467 /* AVKit.framework */; };
+		9B29D8011E03E9B600440467 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29D8001E03E9B600440467 /* MediaPlayer.framework */; };
+		9B2A0B9C1DFA3A6100F44D5C /* KeruiConGes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A0B9B1DFA3A6100F44D5C /* KeruiConGes.m */; };
+		9B36EABF1DFE97D30002EDFA /* KeruiTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B36EABE1DFE97D30002EDFA /* KeruiTopic.m */; };
+		9B3825461E11100D001DA029 /* KeruisenderWorderrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3825451E11100D001DA029 /* KeruisenderWorderrViewController.m */; };
+		9B43DFE01E0A615C008F3E1C /* KeruiTopALLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43DFDF1E0A615C008F3E1C /* KeruiTopALLViewController.m */; };
+		9B43DFE71E0A6FCE008F3E1C /* XFVociePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43DFE51E0A6FCE008F3E1C /* XFVociePlayerController.m */; };
+		9B43DFE81E0A6FCE008F3E1C /* XFVociePlayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B43DFE61E0A6FCE008F3E1C /* XFVociePlayerController.xib */; };
+		9B43DFEB1E0A6FFF008F3E1C /* NSString+XFTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43DFEA1E0A6FFF008F3E1C /* NSString+XFTime.m */; };
+		9B4D892A1DEDAEAA00872D04 /* KeruiNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D89291DEDAEAA00872D04 /* KeruiNavController.m */; };
+		9B4D892D1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D892C1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.m */; };
+		9B4D89341DEDC93F00872D04 /* KeruiADviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D89331DEDC93F00872D04 /* KeruiADviewController.m */; };
+		9B4D89381DEDC97A00872D04 /* KeruiADviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4D89371DEDC97A00872D04 /* KeruiADviewController.xib */; };
+		9B4F02AE1DEFCD7A00BB7CF0 /* KeruiFoucscontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4F02AD1DEFCD7A00BB7CF0 /* KeruiFoucscontroller.xib */; };
+		9B5363DB1DF3F9CF00215BC3 /* KeruiMeviewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5363DA1DF3F9CF00215BC3 /* KeruiMeviewController.storyboard */; };
+		9B5363DF1DF4018E00215BC3 /* KeruiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5363DD1DF4018E00215BC3 /* KeruiCollectionViewCell.m */; };
+		9B5363E01DF4018E00215BC3 /* KeruiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5363DE1DF4018E00215BC3 /* KeruiCollectionViewCell.xib */; };
+		9B5713951DF2A36800ED53FA /* KeruiFlastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5713941DF2A36800ED53FA /* KeruiFlastBtn.m */; };
+		9B5713981DF2AB2200ED53FA /* KeruiLogInFefield.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5713971DF2AB2200ED53FA /* KeruiLogInFefield.m */; };
+		9B57139B1DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B57139A1DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.m */; };
+		9B58F7FB1DED2D03001DA0AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58F7FA1DED2D03001DA0AF /* main.m */; };
+		9B58F7FE1DED2D03001DA0AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58F7FD1DED2D03001DA0AF /* AppDelegate.m */; };
+		9B58F8041DED2D03001DA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B58F8021DED2D03001DA0AF /* Main.storyboard */; };
+		9B58F8061DED2D03001DA0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B58F8051DED2D03001DA0AF /* Assets.xcassets */; };
+		9B58F8091DED2D03001DA0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B58F8071DED2D03001DA0AF /* LaunchScreen.storyboard */; };
+		9B58F8141DED2D03001DA0AF /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58F8131DED2D03001DA0AF /* _____Tests.m */; };
+		9B58F81F1DED2D03001DA0AF /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58F81E1DED2D03001DA0AF /* _____UITests.m */; };
+		9B58F82E1DED3814001DA0AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B58F82D1DED3814001DA0AF /* Images.xcassets */; };
+		9B6189091E0BA33900D1DA6B /* KeruiRecommerViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6189081E0BA33900D1DA6B /* KeruiRecommerViewViewController.m */; };
+		9B61890C1E0BA97200D1DA6B /* KeruiRecommed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61890B1E0BA97200D1DA6B /* KeruiRecommed.m */; };
+		9B61890F1E0BAAD700D1DA6B /* Keruiuser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61890E1E0BAAD700D1DA6B /* Keruiuser.m */; };
+		9B6189131E0BAF9700D1DA6B /* KeruiRecommedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6189111E0BAF9700D1DA6B /* KeruiRecommedViewCell.m */; };
+		9B6189141E0BAF9700D1DA6B /* KeruiRecommedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6189121E0BAF9700D1DA6B /* KeruiRecommedViewCell.xib */; };
+		9B6189181E0BAFB200D1DA6B /* KeruiuserViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6189161E0BAFB200D1DA6B /* KeruiuserViewCell.m */; };
+		9B6189191E0BAFB200D1DA6B /* KeruiuserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6189171E0BAFB200D1DA6B /* KeruiuserViewCell.xib */; };
+		9B61891B1E0BB36100D1DA6B /* KeruiRecommerViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B61891A1E0BB36100D1DA6B /* KeruiRecommerViewViewController.xib */; };
+		9B6330071DED6B7500A4C6B7 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6330061DED6B7500A4C6B7 /* UIImage+image.m */; };
+		9B63300A1DED763200A4C6B7 /* KeruitabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6330091DED763200A4C6B7 /* KeruitabBar.m */; };
+		9B63300D1DED8C5D00A4C6B7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63300C1DED8C5D00A4C6B7 /* UIView+Frame.m */; };
+		9B6330101DED945D00A4C6B7 /* KeruiSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63300F1DED945D00A4C6B7 /* KeruiSetting.m */; };
+		9B6426271DF5499100F644AE /* FMKWebvieviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6426251DF5499100F644AE /* FMKWebvieviewcontroller.m */; };
+		9B6426281DF5499100F644AE /* FMKWebvieviewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6426261DF5499100F644AE /* FMKWebvieviewcontroller.xib */; };
+		9B658BBE1DEE6F0700446776 /* KeruiAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B658BBD1DEE6F0700446776 /* KeruiAdItem.m */; };
+		9B80D7F31DF65DD4004CDCEA /* KeruiHuanCTOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80D7F21DF65DD4004CDCEA /* KeruiHuanCTOOL.m */; };
+		9B9E3D5F1E096ADD0020C88C /* KeruiVoicece.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E3D5E1E096ADD0020C88C /* KeruiVoicece.m */; };
+		9B9E3D611E096B830020C88C /* KeruiVoicece.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9E3D601E096B830020C88C /* KeruiVoicece.xib */; };
+		9B9F87141DF17A9E000B2704 /* KeruiBottonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F87131DF17A9D000B2704 /* KeruiBottonView.m */; };
+		9B9F87161DF17AC2000B2704 /* KeruiBottonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F87151DF17AC2000B2704 /* KeruiBottonView.xib */; };
+		9BABCCD01DED3FE100098116 /* keruiTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCCF1DED3FE100098116 /* keruiTabbarController.m */; };
+		9BABCCD31DED41B700098116 /* Keruidistill.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCD21DED41B700098116 /* Keruidistill.m */; };
+		9BABCCD61DED41CF00098116 /* KeruiNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCD51DED41CF00098116 /* KeruiNewsController.m */; };
+		9BABCCD91DED41E700098116 /* KeruiFoucscontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCD81DED41E700098116 /* KeruiFoucscontroller.m */; };
+		9BABCCDC1DED41FB00098116 /* KeruiMeviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCDB1DED41FB00098116 /* KeruiMeviewController.m */; };
+		9BABCCDF1DED421600098116 /* KeruiPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCDE1DED421600098116 /* KeruiPostViewController.m */; };
+		9BABCCE21DED424C00098116 /* KeruiNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABCCE11DED424C00098116 /* KeruiNavgationController.m */; };
+		9BAF32CA1DF409060095546E /* KeruiItemcolllec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF32C91DF409060095546E /* KeruiItemcolllec.m */; };
+		9BB49B101DEECE3F007C9CAF /* KeruiDingruViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB49B0F1DEECE3F007C9CAF /* KeruiDingruViewController.m */; };
+		9BB49B151DEED2B2007C9CAF /* Kerui DRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB49B141DEED2B2007C9CAF /* Kerui DRItem.m */; };
+		9BB49B1C1DEED749007C9CAF /* KeruiDRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB49B1A1DEED749007C9CAF /* KeruiDRTableViewCell.m */; };
+		9BB49B1D1DEED749007C9CAF /* KeruiDRTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB49B1B1DEED749007C9CAF /* KeruiDRTableViewCell.xib */; };
+		9BBF42E91E029F9A00EE5265 /* KeruipichterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF42E81E029F9A00EE5265 /* KeruipichterView.m */; };
+		9BBF42EB1E029FAF00EE5265 /* KeruipichterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BBF42EA1E029FAF00EE5265 /* KeruipichterView.xib */; };
+		9BBF42F31E02A0AA00EE5265 /* KeruiVideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF42F21E02A0AA00EE5265 /* KeruiVideView.m */; };
+		9BBF42F51E02A0BA00EE5265 /* KeruiVideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BBF42F41E02A0BA00EE5265 /* KeruiVideView.xib */; };
+		9BC1DF831E0E8822000FD13D /* KeruiaddNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1DF821E0E8822000FD13D /* KeruiaddNewView.m */; };
+		9BC1DF851E0E886E000FD13D /* KeruiaddNewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC1DF841E0E886E000FD13D /* KeruiaddNewView.xib */; };
+		9BE5B4181E00D99600D88903 /* KeruiMainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4161E00D99600D88903 /* KeruiMainViewCell.m */; };
+		9BE5B4191E00D99600D88903 /* KeruiMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE5B4171E00D99600D88903 /* KeruiMainViewCell.xib */; };
+		9BEA9D8D1E18B5DE00743211 /* JYJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA9D8C1E18B5DE00743211 /* JYJProgressView.m */; };
+		9BEB57531DF8F4A1009FABE1 /* KeruiBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB57521DF8F4A1009FABE1 /* KeruiBtn.m */; };
+		9BEB57561DF9009F009FABE1 /* KeruiAllTableVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB57551DF9009F009FABE1 /* KeruiAllTableVController.m */; };
+		9BEB57591DF900C5009FABE1 /* KeruiVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB57581DF900C5009FABE1 /* KeruiVideoViewController.m */; };
+		9BEB575C1DF900DA009FABE1 /* KeruiVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB575B1DF900DA009FABE1 /* KeruiVoiceViewController.m */; };
+		9BEB575F1DF900F8009FABE1 /* KeruiPicteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB575E1DF900F8009FABE1 /* KeruiPicteViewController.m */; };
+		9BEB57621DF9010B009FABE1 /* KeruiFuncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB57611DF9010B009FABE1 /* KeruiFuncViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B58F8101DED2D03001DA0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B58F7EE1DED2D03001DA0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B58F7F51DED2D03001DA0AF;
+			remoteInfo = "百思不得姐";
+		};
+		9B58F81B1DED2D03001DA0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B58F7EE1DED2D03001DA0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B58F7F51DED2D03001DA0AF;
+			remoteInfo = "百思不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADC01CAFD98B60C7EBEF0BF /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		51F07A3746F824F35D0DC408 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0A00401E07B8C000FB3C7E /* KeruiSeebigpicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeruiSeebigpicViewController.h; path = "百思不得姐/Main/Distall/Viewcontroller/KeruiSeebigpicViewController.h"; sourceTree = SOURCE_ROOT; };
+		9B0A00411E07B8C000FB3C7E /* KeruiSeebigpicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeruiSeebigpicViewController.m; path = "百思不得姐/Main/Distall/Viewcontroller/KeruiSeebigpicViewController.m"; sourceTree = SOURCE_ROOT; };
+		9B0A00421E07B8C000FB3C7E /* KeruiSeebigpicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeruiSeebigpicViewController.xib; path = "百思不得姐/Main/Distall/Viewcontroller/KeruiSeebigpicViewController.xib"; sourceTree = SOURCE_ROOT; };
+		9B0A00451E07D16100FB3C7E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9B0F1A471E050F6700BE51BF /* KRVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerController.h; sourceTree = "<group>"; };
+		9B0F1A481E050F6700BE51BF /* KRVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerController.m; sourceTree = "<group>"; };
+		9B0F1A491E050F6700BE51BF /* KRVideoPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerControlView.h; sourceTree = "<group>"; };
+		9B0F1A4A1E050F6700BE51BF /* KRVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerControlView.m; sourceTree = "<group>"; };
+		9B1BA3E51DF0022E00B58577 /* KeruiLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiLogInViewController.h; sourceTree = "<group>"; };
+		9B1BA3E61DF0022E00B58577 /* KeruiLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiLogInViewController.m; sourceTree = "<group>"; };
+		9B1BA3E71DF0022E00B58577 /* KeruiLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiLogInViewController.xib; sourceTree = "<group>"; };
+		9B1BA3EA1DF0095300B58577 /* KeruiResgLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiResgLoginViewController.h; sourceTree = "<group>"; };
+		9B1BA3EB1DF0095300B58577 /* KeruiResgLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiResgLoginViewController.m; sourceTree = "<group>"; };
+		9B1BA3EC1DF0095300B58577 /* KeruiResgLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiResgLoginViewController.xib; sourceTree = "<group>"; };
+		9B2426BF1E13A686007F3D24 /* Keruivitebtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keruivitebtn.h; sourceTree = "<group>"; };
+		9B2426C01E13A686007F3D24 /* Keruivitebtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keruivitebtn.m; sourceTree = "<group>"; };
+		9B2548B41E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KeruiUIimageVIew.h"; sourceTree = "<group>"; };
+		9B2548B51E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KeruiUIimageVIew.m"; sourceTree = "<group>"; };
+		9B29D7FC1E03E99200440467 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B29D7FE1E03E9A600440467 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9B29D8001E03E9B600440467 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9B2A0B9A1DFA3A6100F44D5C /* KeruiConGes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiConGes.h; sourceTree = "<group>"; };
+		9B2A0B9B1DFA3A6100F44D5C /* KeruiConGes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiConGes.m; sourceTree = "<group>"; };
+		9B36EABD1DFE97D30002EDFA /* KeruiTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiTopic.h; sourceTree = "<group>"; };
+		9B36EABE1DFE97D30002EDFA /* KeruiTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiTopic.m; sourceTree = "<group>"; };
+		9B3825441E11100D001DA029 /* KeruisenderWorderrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruisenderWorderrViewController.h; sourceTree = "<group>"; };
+		9B3825451E11100D001DA029 /* KeruisenderWorderrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruisenderWorderrViewController.m; sourceTree = "<group>"; };
+		9B43DFDE1E0A615C008F3E1C /* KeruiTopALLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiTopALLViewController.h; sourceTree = "<group>"; };
+		9B43DFDF1E0A615C008F3E1C /* KeruiTopALLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiTopALLViewController.m; sourceTree = "<group>"; };
+		9B43DFE41E0A6FCE008F3E1C /* XFVociePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFVociePlayerController.h; sourceTree = "<group>"; };
+		9B43DFE51E0A6FCE008F3E1C /* XFVociePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFVociePlayerController.m; sourceTree = "<group>"; };
+		9B43DFE61E0A6FCE008F3E1C /* XFVociePlayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XFVociePlayerController.xib; sourceTree = "<group>"; };
+		9B43DFE91E0A6FFF008F3E1C /* NSString+XFTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XFTime.h"; sourceTree = "<group>"; };
+		9B43DFEA1E0A6FFF008F3E1C /* NSString+XFTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XFTime.m"; sourceTree = "<group>"; };
+		9B4D89281DEDAEAA00872D04 /* KeruiNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiNavController.h; sourceTree = "<group>"; };
+		9B4D89291DEDAEAA00872D04 /* KeruiNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiNavController.m; sourceTree = "<group>"; };
+		9B4D892B1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KeruiItem.h"; sourceTree = "<group>"; };
+		9B4D892C1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KeruiItem.m"; sourceTree = "<group>"; };
+		9B4D89321DEDC93F00872D04 /* KeruiADviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiADviewController.h; sourceTree = "<group>"; };
+		9B4D89331DEDC93F00872D04 /* KeruiADviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiADviewController.m; sourceTree = "<group>"; };
+		9B4D89371DEDC97A00872D04 /* KeruiADviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiADviewController.xib; sourceTree = "<group>"; };
+		9B4F02AD1DEFCD7A00BB7CF0 /* KeruiFoucscontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiFoucscontroller.xib; sourceTree = "<group>"; };
+		9B5363DA1DF3F9CF00215BC3 /* KeruiMeviewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeruiMeviewController.storyboard; sourceTree = "<group>"; };
+		9B5363DC1DF4018E00215BC3 /* KeruiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiCollectionViewCell.h; sourceTree = "<group>"; };
+		9B5363DD1DF4018E00215BC3 /* KeruiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiCollectionViewCell.m; sourceTree = "<group>"; };
+		9B5363DE1DF4018E00215BC3 /* KeruiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiCollectionViewCell.xib; sourceTree = "<group>"; };
+		9B5713931DF2A36800ED53FA /* KeruiFlastBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiFlastBtn.h; sourceTree = "<group>"; };
+		9B5713941DF2A36800ED53FA /* KeruiFlastBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiFlastBtn.m; sourceTree = "<group>"; };
+		9B5713961DF2AB2200ED53FA /* KeruiLogInFefield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiLogInFefield.h; sourceTree = "<group>"; };
+		9B5713971DF2AB2200ED53FA /* KeruiLogInFefield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiLogInFefield.m; sourceTree = "<group>"; };
+		9B5713991DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Keruiplacehlodercolor.h"; sourceTree = "<group>"; };
+		9B57139A1DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Keruiplacehlodercolor.m"; sourceTree = "<group>"; };
+		9B58F7F61DED2D03001DA0AF /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58F7FA1DED2D03001DA0AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B58F7FC1DED2D03001DA0AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		9B58F7FD1DED2D03001DA0AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		9B58F8031DED2D03001DA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B58F8051DED2D03001DA0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		9B58F8081DED2D03001DA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B58F80A1DED2D03001DA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58F80F1DED2D03001DA0AF /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58F8131DED2D03001DA0AF /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		9B58F8151DED2D03001DA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58F81A1DED2D03001DA0AF /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58F81E1DED2D03001DA0AF /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		9B58F8201DED2D03001DA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58F82C1DED2D2D001DA0AF /* Bsidj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bsidj.h; sourceTree = "<group>"; };
+		9B58F82D1DED3814001DA0AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B6189071E0BA33900D1DA6B /* KeruiRecommerViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiRecommerViewViewController.h; sourceTree = "<group>"; };
+		9B6189081E0BA33900D1DA6B /* KeruiRecommerViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiRecommerViewViewController.m; sourceTree = "<group>"; };
+		9B61890A1E0BA97200D1DA6B /* KeruiRecommed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiRecommed.h; sourceTree = "<group>"; };
+		9B61890B1E0BA97200D1DA6B /* KeruiRecommed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiRecommed.m; sourceTree = "<group>"; };
+		9B61890D1E0BAAD700D1DA6B /* Keruiuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keruiuser.h; sourceTree = "<group>"; };
+		9B61890E1E0BAAD700D1DA6B /* Keruiuser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keruiuser.m; sourceTree = "<group>"; };
+		9B6189101E0BAF9700D1DA6B /* KeruiRecommedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiRecommedViewCell.h; sourceTree = "<group>"; };
+		9B6189111E0BAF9700D1DA6B /* KeruiRecommedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiRecommedViewCell.m; sourceTree = "<group>"; };
+		9B6189121E0BAF9700D1DA6B /* KeruiRecommedViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiRecommedViewCell.xib; sourceTree = "<group>"; };
+		9B6189151E0BAFB200D1DA6B /* KeruiuserViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiuserViewCell.h; sourceTree = "<group>"; };
+		9B6189161E0BAFB200D1DA6B /* KeruiuserViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiuserViewCell.m; sourceTree = "<group>"; };
+		9B6189171E0BAFB200D1DA6B /* KeruiuserViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiuserViewCell.xib; sourceTree = "<group>"; };
+		9B61891A1E0BB36100D1DA6B /* KeruiRecommerViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiRecommerViewViewController.xib; sourceTree = "<group>"; };
+		9B6330051DED6B7500A4C6B7 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		9B6330061DED6B7500A4C6B7 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		9B6330081DED763200A4C6B7 /* KeruitabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruitabBar.h; sourceTree = "<group>"; };
+		9B6330091DED763200A4C6B7 /* KeruitabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruitabBar.m; sourceTree = "<group>"; };
+		9B63300B1DED8C5D00A4C6B7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		9B63300C1DED8C5D00A4C6B7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9B63300E1DED945D00A4C6B7 /* KeruiSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiSetting.h; sourceTree = "<group>"; };
+		9B63300F1DED945D00A4C6B7 /* KeruiSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiSetting.m; sourceTree = "<group>"; };
+		9B6426241DF5499100F644AE /* FMKWebvieviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMKWebvieviewcontroller.h; sourceTree = "<group>"; };
+		9B6426251DF5499100F644AE /* FMKWebvieviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMKWebvieviewcontroller.m; sourceTree = "<group>"; };
+		9B6426261DF5499100F644AE /* FMKWebvieviewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMKWebvieviewcontroller.xib; sourceTree = "<group>"; };
+		9B6426291DF54F7200F644AE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9B658BBC1DEE6F0700446776 /* KeruiAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiAdItem.h; sourceTree = "<group>"; };
+		9B658BBD1DEE6F0700446776 /* KeruiAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiAdItem.m; sourceTree = "<group>"; };
+		9B80D7F11DF65DD4004CDCEA /* KeruiHuanCTOOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiHuanCTOOL.h; sourceTree = "<group>"; };
+		9B80D7F21DF65DD4004CDCEA /* KeruiHuanCTOOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiHuanCTOOL.m; sourceTree = "<group>"; };
+		9B9E3D5D1E096ADD0020C88C /* KeruiVoicece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiVoicece.h; sourceTree = "<group>"; };
+		9B9E3D5E1E096ADD0020C88C /* KeruiVoicece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiVoicece.m; sourceTree = "<group>"; };
+		9B9E3D601E096B830020C88C /* KeruiVoicece.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiVoicece.xib; sourceTree = "<group>"; };
+		9B9F87121DF17A9D000B2704 /* KeruiBottonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiBottonView.h; sourceTree = "<group>"; };
+		9B9F87131DF17A9D000B2704 /* KeruiBottonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiBottonView.m; sourceTree = "<group>"; };
+		9B9F87151DF17AC2000B2704 /* KeruiBottonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiBottonView.xib; sourceTree = "<group>"; };
+		9BABCCCE1DED3FE100098116 /* keruiTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keruiTabbarController.h; sourceTree = "<group>"; };
+		9BABCCCF1DED3FE100098116 /* keruiTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keruiTabbarController.m; sourceTree = "<group>"; };
+		9BABCCD11DED41B700098116 /* Keruidistill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keruidistill.h; sourceTree = "<group>"; };
+		9BABCCD21DED41B700098116 /* Keruidistill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keruidistill.m; sourceTree = "<group>"; };
+		9BABCCD41DED41CF00098116 /* KeruiNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiNewsController.h; sourceTree = "<group>"; };
+		9BABCCD51DED41CF00098116 /* KeruiNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiNewsController.m; sourceTree = "<group>"; };
+		9BABCCD71DED41E700098116 /* KeruiFoucscontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiFoucscontroller.h; sourceTree = "<group>"; };
+		9BABCCD81DED41E700098116 /* KeruiFoucscontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiFoucscontroller.m; sourceTree = "<group>"; };
+		9BABCCDA1DED41FB00098116 /* KeruiMeviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiMeviewController.h; sourceTree = "<group>"; };
+		9BABCCDB1DED41FB00098116 /* KeruiMeviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiMeviewController.m; sourceTree = "<group>"; };
+		9BABCCDD1DED421600098116 /* KeruiPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiPostViewController.h; sourceTree = "<group>"; };
+		9BABCCDE1DED421600098116 /* KeruiPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiPostViewController.m; sourceTree = "<group>"; };
+		9BABCCE01DED424C00098116 /* KeruiNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiNavgationController.h; sourceTree = "<group>"; };
+		9BABCCE11DED424C00098116 /* KeruiNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiNavgationController.m; sourceTree = "<group>"; };
+		9BAF32C81DF409060095546E /* KeruiItemcolllec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiItemcolllec.h; sourceTree = "<group>"; };
+		9BAF32C91DF409060095546E /* KeruiItemcolllec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiItemcolllec.m; sourceTree = "<group>"; };
+		9BB49B0E1DEECE3F007C9CAF /* KeruiDingruViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiDingruViewController.h; sourceTree = "<group>"; };
+		9BB49B0F1DEECE3F007C9CAF /* KeruiDingruViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiDingruViewController.m; sourceTree = "<group>"; };
+		9BB49B131DEED2B2007C9CAF /* Kerui DRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kerui DRItem.h"; sourceTree = "<group>"; };
+		9BB49B141DEED2B2007C9CAF /* Kerui DRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Kerui DRItem.m"; sourceTree = "<group>"; };
+		9BB49B191DEED749007C9CAF /* KeruiDRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiDRTableViewCell.h; sourceTree = "<group>"; };
+		9BB49B1A1DEED749007C9CAF /* KeruiDRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiDRTableViewCell.m; sourceTree = "<group>"; };
+		9BB49B1B1DEED749007C9CAF /* KeruiDRTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiDRTableViewCell.xib; sourceTree = "<group>"; };
+		9BBF42E71E029F9A00EE5265 /* KeruipichterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruipichterView.h; sourceTree = "<group>"; };
+		9BBF42E81E029F9A00EE5265 /* KeruipichterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruipichterView.m; sourceTree = "<group>"; };
+		9BBF42EA1E029FAF00EE5265 /* KeruipichterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruipichterView.xib; sourceTree = "<group>"; };
+		9BBF42F11E02A0AA00EE5265 /* KeruiVideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiVideView.h; sourceTree = "<group>"; };
+		9BBF42F21E02A0AA00EE5265 /* KeruiVideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiVideView.m; sourceTree = "<group>"; };
+		9BBF42F41E02A0BA00EE5265 /* KeruiVideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiVideView.xib; sourceTree = "<group>"; };
+		9BC1DF811E0E8822000FD13D /* KeruiaddNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiaddNewView.h; sourceTree = "<group>"; };
+		9BC1DF821E0E8822000FD13D /* KeruiaddNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiaddNewView.m; sourceTree = "<group>"; };
+		9BC1DF841E0E886E000FD13D /* KeruiaddNewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiaddNewView.xib; sourceTree = "<group>"; };
+		9BE5B4151E00D99600D88903 /* KeruiMainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiMainViewCell.h; sourceTree = "<group>"; };
+		9BE5B4161E00D99600D88903 /* KeruiMainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiMainViewCell.m; sourceTree = "<group>"; };
+		9BE5B4171E00D99600D88903 /* KeruiMainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeruiMainViewCell.xib; sourceTree = "<group>"; };
+		9BEA9D8B1E18B5DE00743211 /* JYJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJProgressView.h; sourceTree = "<group>"; };
+		9BEA9D8C1E18B5DE00743211 /* JYJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJProgressView.m; sourceTree = "<group>"; };
+		9BEB57511DF8F4A1009FABE1 /* KeruiBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiBtn.h; sourceTree = "<group>"; };
+		9BEB57521DF8F4A1009FABE1 /* KeruiBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiBtn.m; sourceTree = "<group>"; };
+		9BEB57541DF9009F009FABE1 /* KeruiAllTableVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiAllTableVController.h; sourceTree = "<group>"; };
+		9BEB57551DF9009F009FABE1 /* KeruiAllTableVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiAllTableVController.m; sourceTree = "<group>"; };
+		9BEB57571DF900C5009FABE1 /* KeruiVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiVideoViewController.h; sourceTree = "<group>"; };
+		9BEB57581DF900C5009FABE1 /* KeruiVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiVideoViewController.m; sourceTree = "<group>"; };
+		9BEB575A1DF900DA009FABE1 /* KeruiVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiVoiceViewController.h; sourceTree = "<group>"; };
+		9BEB575B1DF900DA009FABE1 /* KeruiVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiVoiceViewController.m; sourceTree = "<group>"; };
+		9BEB575D1DF900F8009FABE1 /* KeruiPicteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiPicteViewController.h; sourceTree = "<group>"; };
+		9BEB575E1DF900F8009FABE1 /* KeruiPicteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiPicteViewController.m; sourceTree = "<group>"; };
+		9BEB57601DF9010B009FABE1 /* KeruiFuncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeruiFuncViewController.h; sourceTree = "<group>"; };
+		9BEB57611DF9010B009FABE1 /* KeruiFuncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeruiFuncViewController.m; sourceTree = "<group>"; };
+		E6B9F5D4CDCF40E60685B53A /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B58F7F31DED2D03001DA0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0A00461E07D16100FB3C7E /* Photos.framework in Frameworks */,
+				9B0F1A4D1E050FF100BE51BF /* AVFoundation.framework in Frameworks */,
+				9B29D8011E03E9B600440467 /* MediaPlayer.framework in Frameworks */,
+				9B29D7FF1E03E9A700440467 /* AVKit.framework in Frameworks */,
+				0D11A07547BC62A2A34E2AB6 /* libPods-百思不得姐.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F80C1DED2D03001DA0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F8171DED2D03001DA0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B43DFE11E0A616C008F3E1C /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				9B63300E1DED945D00A4C6B7 /* KeruiSetting.h */,
+				9B63300F1DED945D00A4C6B7 /* KeruiSetting.m */,
+				9BABCCD11DED41B700098116 /* Keruidistill.h */,
+				9BABCCD21DED41B700098116 /* Keruidistill.m */,
+				9B43DFDE1E0A615C008F3E1C /* KeruiTopALLViewController.h */,
+				9B43DFDF1E0A615C008F3E1C /* KeruiTopALLViewController.m */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		9B43DFE21E0A6189008F3E1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BEB57541DF9009F009FABE1 /* KeruiAllTableVController.h */,
+				9BEB57551DF9009F009FABE1 /* KeruiAllTableVController.m */,
+				9BEB57571DF900C5009FABE1 /* KeruiVideoViewController.h */,
+				9BEB57581DF900C5009FABE1 /* KeruiVideoViewController.m */,
+				9BEB575A1DF900DA009FABE1 /* KeruiVoiceViewController.h */,
+				9BEB575B1DF900DA009FABE1 /* KeruiVoiceViewController.m */,
+				9BEB575D1DF900F8009FABE1 /* KeruiPicteViewController.h */,
+				9BEB575E1DF900F8009FABE1 /* KeruiPicteViewController.m */,
+				9BEB57601DF9010B009FABE1 /* KeruiFuncViewController.h */,
+				9BEB57611DF9010B009FABE1 /* KeruiFuncViewController.m */,
+				9B0A00401E07B8C000FB3C7E /* KeruiSeebigpicViewController.h */,
+				9B0A00411E07B8C000FB3C7E /* KeruiSeebigpicViewController.m */,
+				9B0A00421E07B8C000FB3C7E /* KeruiSeebigpicViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B43DFE31E0A6FA8008F3E1C /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				9B43DFE41E0A6FCE008F3E1C /* XFVociePlayerController.h */,
+				9B43DFE51E0A6FCE008F3E1C /* XFVociePlayerController.m */,
+				9B43DFE61E0A6FCE008F3E1C /* XFVociePlayerController.xib */,
+				9B0F1A471E050F6700BE51BF /* KRVideoPlayerController.h */,
+				9B0F1A481E050F6700BE51BF /* KRVideoPlayerController.m */,
+				9B0F1A491E050F6700BE51BF /* KRVideoPlayerControlView.h */,
+				9B0F1A4A1E050F6700BE51BF /* KRVideoPlayerControlView.m */,
+			);
+			name = LIB;
+			sourceTree = "<group>";
+		};
+		9B4D892E1DEDC90200872D04 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				9B4D89311DEDC92400872D04 /* MOdel */,
+				9B4D89301DEDC91B00872D04 /* View */,
+				9B4D892F1DEDC90A00872D04 /* ViewController */,
+			);
+			name = AD;
+			sourceTree = "<group>";
+		};
+		9B4D892F1DEDC90A00872D04 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B4D89321DEDC93F00872D04 /* KeruiADviewController.h */,
+				9B4D89331DEDC93F00872D04 /* KeruiADviewController.m */,
+				9B4D89371DEDC97A00872D04 /* KeruiADviewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9B4D89301DEDC91B00872D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9B4D89311DEDC92400872D04 /* MOdel */ = {
+			isa = PBXGroup;
+			children = (
+				9B658BBC1DEE6F0700446776 /* KeruiAdItem.h */,
+				9B658BBD1DEE6F0700446776 /* KeruiAdItem.m */,
+			);
+			name = MOdel;
+			sourceTree = "<group>";
+		};
+		9B58F7ED1DED2D03001DA0AF = {
+			isa = PBXGroup;
+			children = (
+				9B58F7F81DED2D03001DA0AF /* 百思不得姐 */,
+				9B58F8121DED2D03001DA0AF /* 百思不得姐Tests */,
+				9B58F81D1DED2D03001DA0AF /* 百思不得姐UITests */,
+				9B58F7F71DED2D03001DA0AF /* Products */,
+				D67FDDB1E06EE1E220B39FF7 /* Pods */,
+				BDD1F7230CC4852BE58DADE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B58F7F71DED2D03001DA0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B58F7F61DED2D03001DA0AF /* 百思不得姐.app */,
+				9B58F80F1DED2D03001DA0AF /* 百思不得姐Tests.xctest */,
+				9B58F81A1DED2D03001DA0AF /* 百思不得姐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B58F7F81DED2D03001DA0AF /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCA01DED3D8100098116 /* other */,
+				9B58F8021DED2D03001DA0AF /* Main.storyboard */,
+				9B58F80A1DED2D03001DA0AF /* Info.plist */,
+				9BABCCB91DED3F3800098116 /* Main */,
+				9B58F7F91DED2D03001DA0AF /* Supporting Files */,
+				9B58F82C1DED2D2D001DA0AF /* Bsidj.h */,
+				9B58F82D1DED3814001DA0AF /* Images.xcassets */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		9B58F7F91DED2D03001DA0AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B58F7FA1DED2D03001DA0AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B58F8121DED2D03001DA0AF /* 百思不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B58F8131DED2D03001DA0AF /* _____Tests.m */,
+				9B58F8151DED2D03001DA0AF /* Info.plist */,
+			);
+			path = "百思不得姐Tests";
+			sourceTree = "<group>";
+		};
+		9B58F81D1DED2D03001DA0AF /* 百思不得姐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B58F81E1DED2D03001DA0AF /* _____UITests.m */,
+				9B58F8201DED2D03001DA0AF /* Info.plist */,
+			);
+			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		9B6330011DED6A4F00A4C6B7 /* catagroy */ = {
+			isa = PBXGroup;
+			children = (
+				9B6330051DED6B7500A4C6B7 /* UIImage+image.h */,
+				9B6330061DED6B7500A4C6B7 /* UIImage+image.m */,
+				9B63300B1DED8C5D00A4C6B7 /* UIView+Frame.h */,
+				9B63300C1DED8C5D00A4C6B7 /* UIView+Frame.m */,
+				9B4D892B1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.h */,
+				9B4D892C1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.m */,
+				9B5713991DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.h */,
+				9B57139A1DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.m */,
+				9B80D7F11DF65DD4004CDCEA /* KeruiHuanCTOOL.h */,
+				9B80D7F21DF65DD4004CDCEA /* KeruiHuanCTOOL.m */,
+				9B2548B41E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.h */,
+				9B2548B51E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.m */,
+				9B43DFE91E0A6FFF008F3E1C /* NSString+XFTime.h */,
+				9B43DFEA1E0A6FFF008F3E1C /* NSString+XFTime.m */,
+			);
+			name = catagroy;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9BABCCA01DED3D8100098116 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9B4D892E1DEDC90200872D04 /* AD */,
+				9B58F7FC1DED2D03001DA0AF /* AppDelegate.h */,
+				9B58F7FD1DED2D03001DA0AF /* AppDelegate.m */,
+				9B58F8051DED2D03001DA0AF /* Assets.xcassets */,
+				9B58F8071DED2D03001DA0AF /* LaunchScreen.storyboard */,
+				9B6330081DED763200A4C6B7 /* KeruitabBar.h */,
+				9B6330091DED763200A4C6B7 /* KeruitabBar.m */,
+				9BABCCCE1DED3FE100098116 /* keruiTabbarController.h */,
+				9BABCCCF1DED3FE100098116 /* keruiTabbarController.m */,
+				9BABCCE01DED424C00098116 /* KeruiNavgationController.h */,
+				9BABCCE11DED424C00098116 /* KeruiNavgationController.m */,
+				9B6330011DED6A4F00A4C6B7 /* catagroy */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		9BABCCB91DED3F3800098116 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCC61DED3F3800098116 /* News */,
+				9BABCCBA1DED3F3800098116 /* Distall */,
+				9BABCCC21DED3F3800098116 /* Me */,
+				9BABCCCA1DED3F3800098116 /* Post */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9BABCCBA1DED3F3800098116 /* Distall */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCBB1DED3F3800098116 /* Model */,
+				9BABCCBC1DED3F3800098116 /* View */,
+				9BABCCBD1DED3F3800098116 /* Viewcontroller */,
+			);
+			path = Distall;
+			sourceTree = "<group>";
+		};
+		9BABCCBB1DED3F3800098116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BEB57511DF8F4A1009FABE1 /* KeruiBtn.h */,
+				9BEB57521DF8F4A1009FABE1 /* KeruiBtn.m */,
+				9B2A0B9A1DFA3A6100F44D5C /* KeruiConGes.h */,
+				9B2A0B9B1DFA3A6100F44D5C /* KeruiConGes.m */,
+				9B36EABD1DFE97D30002EDFA /* KeruiTopic.h */,
+				9B36EABE1DFE97D30002EDFA /* KeruiTopic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BABCCBC1DED3F3800098116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B43DFE31E0A6FA8008F3E1C /* LIB */,
+				9BE5B4151E00D99600D88903 /* KeruiMainViewCell.h */,
+				9BE5B4161E00D99600D88903 /* KeruiMainViewCell.m */,
+				9BE5B4171E00D99600D88903 /* KeruiMainViewCell.xib */,
+				9BBF42E71E029F9A00EE5265 /* KeruipichterView.h */,
+				9BBF42E81E029F9A00EE5265 /* KeruipichterView.m */,
+				9BBF42EA1E029FAF00EE5265 /* KeruipichterView.xib */,
+				9BEA9D8B1E18B5DE00743211 /* JYJProgressView.h */,
+				9BEA9D8C1E18B5DE00743211 /* JYJProgressView.m */,
+				9B9E3D5D1E096ADD0020C88C /* KeruiVoicece.h */,
+				9B9E3D5E1E096ADD0020C88C /* KeruiVoicece.m */,
+				9B9E3D601E096B830020C88C /* KeruiVoicece.xib */,
+				9BBF42F11E02A0AA00EE5265 /* KeruiVideView.h */,
+				9BBF42F21E02A0AA00EE5265 /* KeruiVideView.m */,
+				9BBF42F41E02A0BA00EE5265 /* KeruiVideView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BABCCBD1DED3F3800098116 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9B43DFE21E0A6189008F3E1C /* Controller */,
+				9B43DFE11E0A616C008F3E1C /* MainController */,
+				9BABCCBE1DED3F3800098116 /* Focus */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		9BABCCBE1DED3F3800098116 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCBF1DED3F3800098116 /* Model */,
+				9BABCCC01DED3F3800098116 /* View */,
+				9BABCCC11DED3F3800098116 /* Viewcontroller */,
+			);
+			name = Focus;
+			path = ../../Focus;
+			sourceTree = "<group>";
+		};
+		9BABCCBF1DED3F3800098116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B5713931DF2A36800ED53FA /* KeruiFlastBtn.h */,
+				9B5713941DF2A36800ED53FA /* KeruiFlastBtn.m */,
+				9B5713961DF2AB2200ED53FA /* KeruiLogInFefield.h */,
+				9B5713971DF2AB2200ED53FA /* KeruiLogInFefield.m */,
+				9B61890A1E0BA97200D1DA6B /* KeruiRecommed.h */,
+				9B61890B1E0BA97200D1DA6B /* KeruiRecommed.m */,
+				9B61890D1E0BAAD700D1DA6B /* Keruiuser.h */,
+				9B61890E1E0BAAD700D1DA6B /* Keruiuser.m */,
+				9B2426BF1E13A686007F3D24 /* Keruivitebtn.h */,
+				9B2426C01E13A686007F3D24 /* Keruivitebtn.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BABCCC01DED3F3800098116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F87121DF17A9D000B2704 /* KeruiBottonView.h */,
+				9B9F87131DF17A9D000B2704 /* KeruiBottonView.m */,
+				9B9F87151DF17AC2000B2704 /* KeruiBottonView.xib */,
+				9B6189101E0BAF9700D1DA6B /* KeruiRecommedViewCell.h */,
+				9B6189111E0BAF9700D1DA6B /* KeruiRecommedViewCell.m */,
+				9B6189121E0BAF9700D1DA6B /* KeruiRecommedViewCell.xib */,
+				9B6189151E0BAFB200D1DA6B /* KeruiuserViewCell.h */,
+				9B6189161E0BAFB200D1DA6B /* KeruiuserViewCell.m */,
+				9B6189171E0BAFB200D1DA6B /* KeruiuserViewCell.xib */,
+				9BC1DF811E0E8822000FD13D /* KeruiaddNewView.h */,
+				9BC1DF821E0E8822000FD13D /* KeruiaddNewView.m */,
+				9BC1DF841E0E886E000FD13D /* KeruiaddNewView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BABCCC11DED3F3800098116 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCD71DED41E700098116 /* KeruiFoucscontroller.h */,
+				9BABCCD81DED41E700098116 /* KeruiFoucscontroller.m */,
+				9B4F02AD1DEFCD7A00BB7CF0 /* KeruiFoucscontroller.xib */,
+				9B1BA3E51DF0022E00B58577 /* KeruiLogInViewController.h */,
+				9B1BA3E61DF0022E00B58577 /* KeruiLogInViewController.m */,
+				9B1BA3E71DF0022E00B58577 /* KeruiLogInViewController.xib */,
+				9B1BA3EA1DF0095300B58577 /* KeruiResgLoginViewController.h */,
+				9B1BA3EB1DF0095300B58577 /* KeruiResgLoginViewController.m */,
+				9B1BA3EC1DF0095300B58577 /* KeruiResgLoginViewController.xib */,
+				9B6189071E0BA33900D1DA6B /* KeruiRecommerViewViewController.h */,
+				9B6189081E0BA33900D1DA6B /* KeruiRecommerViewViewController.m */,
+				9B61891A1E0BB36100D1DA6B /* KeruiRecommerViewViewController.xib */,
+				9B3825441E11100D001DA029 /* KeruisenderWorderrViewController.h */,
+				9B3825451E11100D001DA029 /* KeruisenderWorderrViewController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		9BABCCC21DED3F3800098116 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCC31DED3F3800098116 /* Model */,
+				9BABCCC41DED3F3800098116 /* View */,
+				9BABCCC51DED3F3800098116 /* Viewcontroller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		9BABCCC31DED3F3800098116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF32C81DF409060095546E /* KeruiItemcolllec.h */,
+				9BAF32C91DF409060095546E /* KeruiItemcolllec.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BABCCC41DED3F3800098116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B5363DC1DF4018E00215BC3 /* KeruiCollectionViewCell.h */,
+				9B5363DD1DF4018E00215BC3 /* KeruiCollectionViewCell.m */,
+				9B5363DE1DF4018E00215BC3 /* KeruiCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BABCCC51DED3F3800098116 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9B6426241DF5499100F644AE /* FMKWebvieviewcontroller.h */,
+				9B6426251DF5499100F644AE /* FMKWebvieviewcontroller.m */,
+				9B6426261DF5499100F644AE /* FMKWebvieviewcontroller.xib */,
+				9BABCCDA1DED41FB00098116 /* KeruiMeviewController.h */,
+				9BABCCDB1DED41FB00098116 /* KeruiMeviewController.m */,
+				9B5363DA1DF3F9CF00215BC3 /* KeruiMeviewController.storyboard */,
+				9B4D89281DEDAEAA00872D04 /* KeruiNavController.h */,
+				9B4D89291DEDAEAA00872D04 /* KeruiNavController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		9BABCCC61DED3F3800098116 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCC81DED3F3800098116 /* View */,
+				9BABCCC71DED3F3800098116 /* Model */,
+				9BABCCC91DED3F3800098116 /* Viewcontroller */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		9BABCCC71DED3F3800098116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BB49B131DEED2B2007C9CAF /* Kerui DRItem.h */,
+				9BB49B141DEED2B2007C9CAF /* Kerui DRItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BABCCC81DED3F3800098116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BB49B191DEED749007C9CAF /* KeruiDRTableViewCell.h */,
+				9BB49B1A1DEED749007C9CAF /* KeruiDRTableViewCell.m */,
+				9BB49B1B1DEED749007C9CAF /* KeruiDRTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BABCCC91DED3F3800098116 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCD41DED41CF00098116 /* KeruiNewsController.h */,
+				9BABCCD51DED41CF00098116 /* KeruiNewsController.m */,
+				9BB49B0E1DEECE3F007C9CAF /* KeruiDingruViewController.h */,
+				9BB49B0F1DEECE3F007C9CAF /* KeruiDingruViewController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		9BABCCCA1DED3F3800098116 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCCB1DED3F3800098116 /* Model */,
+				9BABCCCC1DED3F3800098116 /* View */,
+				9BABCCCD1DED3F3800098116 /* Viewcontroller */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		9BABCCCB1DED3F3800098116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BABCCCC1DED3F3800098116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BABCCCD1DED3F3800098116 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9BABCCDD1DED421600098116 /* KeruiPostViewController.h */,
+				9BABCCDE1DED421600098116 /* KeruiPostViewController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		BDD1F7230CC4852BE58DADE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A00451E07D16100FB3C7E /* Photos.framework */,
+				9B29D8001E03E9B600440467 /* MediaPlayer.framework */,
+				9B29D7FE1E03E9A600440467 /* AVKit.framework */,
+				9B29D7FC1E03E99200440467 /* AVFoundation.framework */,
+				9B6426291DF54F7200F644AE /* WebKit.framework */,
+				E6B9F5D4CDCF40E60685B53A /* libPods-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67FDDB1E06EE1E220B39FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51F07A3746F824F35D0DC408 /* Pods-百思不得姐.debug.xcconfig */,
+				0ADC01CAFD98B60C7EBEF0BF /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B58F7F51DED2D03001DA0AF /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B58F8231DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				516ACE534A1E9FE0739AB2AE /* [CP] Check Pods Manifest.lock */,
+				9B58F7F21DED2D03001DA0AF /* Sources */,
+				9B58F7F31DED2D03001DA0AF /* Frameworks */,
+				9B58F7F41DED2D03001DA0AF /* Resources */,
+				816A85898BDE6E5D044EA0EA /* [CP] Embed Pods Frameworks */,
+				F7288666FE9C5B17879D83E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = 9B58F7F61DED2D03001DA0AF /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B58F80E1DED2D03001DA0AF /* 百思不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B58F8261DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */;
+			buildPhases = (
+				9B58F80B1DED2D03001DA0AF /* Sources */,
+				9B58F80C1DED2D03001DA0AF /* Frameworks */,
+				9B58F80D1DED2D03001DA0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B58F8111DED2D03001DA0AF /* PBXTargetDependency */,
+			);
+			name = "百思不得姐Tests";
+			productName = "百思不得姐Tests";
+			productReference = 9B58F80F1DED2D03001DA0AF /* 百思不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B58F8191DED2D03001DA0AF /* 百思不得姐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B58F8291DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */;
+			buildPhases = (
+				9B58F8161DED2D03001DA0AF /* Sources */,
+				9B58F8171DED2D03001DA0AF /* Frameworks */,
+				9B58F8181DED2D03001DA0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B58F81C1DED2D03001DA0AF /* PBXTargetDependency */,
+			);
+			name = "百思不得姐UITests";
+			productName = "百思不得姐UITests";
+			productReference = 9B58F81A1DED2D03001DA0AF /* 百思不得姐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B58F7EE1DED2D03001DA0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Kerui;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "洛杉矶";
+				TargetAttributes = {
+					9B58F7F51DED2D03001DA0AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = JWBBX3W7KE;
+					};
+					9B58F80E1DED2D03001DA0AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9B58F7F51DED2D03001DA0AF;
+					};
+					9B58F8191DED2D03001DA0AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9B58F7F51DED2D03001DA0AF;
+					};
+				};
+			};
+			buildConfigurationList = 9B58F7F11DED2D03001DA0AF /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B58F7ED1DED2D03001DA0AF;
+			productRefGroup = 9B58F7F71DED2D03001DA0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B58F7F51DED2D03001DA0AF /* 百思不得姐 */,
+				9B58F80E1DED2D03001DA0AF /* 百思不得姐Tests */,
+				9B58F8191DED2D03001DA0AF /* 百思不得姐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B58F7F41DED2D03001DA0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4D89381DEDC97A00872D04 /* KeruiADviewController.xib in Resources */,
+				9B9E3D611E096B830020C88C /* KeruiVoicece.xib in Resources */,
+				9B1BA3EE1DF0095300B58577 /* KeruiResgLoginViewController.xib in Resources */,
+				9BC1DF851E0E886E000FD13D /* KeruiaddNewView.xib in Resources */,
+				9BBF42F51E02A0BA00EE5265 /* KeruiVideView.xib in Resources */,
+				9B4F02AE1DEFCD7A00BB7CF0 /* KeruiFoucscontroller.xib in Resources */,
+				9B5363E01DF4018E00215BC3 /* KeruiCollectionViewCell.xib in Resources */,
+				9B58F8091DED2D03001DA0AF /* LaunchScreen.storyboard in Resources */,
+				9BBF42EB1E029FAF00EE5265 /* KeruipichterView.xib in Resources */,
+				9B6189191E0BAFB200D1DA6B /* KeruiuserViewCell.xib in Resources */,
+				9B0A00441E07B8C000FB3C7E /* KeruiSeebigpicViewController.xib in Resources */,
+				9B58F82E1DED3814001DA0AF /* Images.xcassets in Resources */,
+				9B5363DB1DF3F9CF00215BC3 /* KeruiMeviewController.storyboard in Resources */,
+				9B58F8061DED2D03001DA0AF /* Assets.xcassets in Resources */,
+				9BE5B4191E00D99600D88903 /* KeruiMainViewCell.xib in Resources */,
+				9B6189141E0BAF9700D1DA6B /* KeruiRecommedViewCell.xib in Resources */,
+				9B1BA3E91DF0022E00B58577 /* KeruiLogInViewController.xib in Resources */,
+				9B43DFE81E0A6FCE008F3E1C /* XFVociePlayerController.xib in Resources */,
+				9BB49B1D1DEED749007C9CAF /* KeruiDRTableViewCell.xib in Resources */,
+				9B61891B1E0BB36100D1DA6B /* KeruiRecommerViewViewController.xib in Resources */,
+				9B6426281DF5499100F644AE /* FMKWebvieviewcontroller.xib in Resources */,
+				9B58F8041DED2D03001DA0AF /* Main.storyboard in Resources */,
+				9B9F87161DF17AC2000B2704 /* KeruiBottonView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F80D1DED2D03001DA0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F8181DED2D03001DA0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		516ACE534A1E9FE0739AB2AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		816A85898BDE6E5D044EA0EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7288666FE9C5B17879D83E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B58F7F21DED2D03001DA0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B36EABF1DFE97D30002EDFA /* KeruiTopic.m in Sources */,
+				9BC1DF831E0E8822000FD13D /* KeruiaddNewView.m in Sources */,
+				9B0F1A4B1E050F6700BE51BF /* KRVideoPlayerController.m in Sources */,
+				9BEB575C1DF900DA009FABE1 /* KeruiVoiceViewController.m in Sources */,
+				9B6330101DED945D00A4C6B7 /* KeruiSetting.m in Sources */,
+				9B2426C11E13A686007F3D24 /* Keruivitebtn.m in Sources */,
+				9BEB57531DF8F4A1009FABE1 /* KeruiBtn.m in Sources */,
+				9BB49B151DEED2B2007C9CAF /* Kerui DRItem.m in Sources */,
+				9B57139B1DF2B43D00ED53FA /* UITextField+Keruiplacehlodercolor.m in Sources */,
+				9B5713981DF2AB2200ED53FA /* KeruiLogInFefield.m in Sources */,
+				9B5363DF1DF4018E00215BC3 /* KeruiCollectionViewCell.m in Sources */,
+				9BB49B1C1DEED749007C9CAF /* KeruiDRTableViewCell.m in Sources */,
+				9B658BBE1DEE6F0700446776 /* KeruiAdItem.m in Sources */,
+				9B9F87141DF17A9E000B2704 /* KeruiBottonView.m in Sources */,
+				9B1BA3ED1DF0095300B58577 /* KeruiResgLoginViewController.m in Sources */,
+				9BEB57621DF9010B009FABE1 /* KeruiFuncViewController.m in Sources */,
+				9B2548B61E053E03000F72A9 /* UIImageView+KeruiUIimageVIew.m in Sources */,
+				9B6426271DF5499100F644AE /* FMKWebvieviewcontroller.m in Sources */,
+				9B63300D1DED8C5D00A4C6B7 /* UIView+Frame.m in Sources */,
+				9BEA9D8D1E18B5DE00743211 /* JYJProgressView.m in Sources */,
+				9BABCCDC1DED41FB00098116 /* KeruiMeviewController.m in Sources */,
+				9B6189091E0BA33900D1DA6B /* KeruiRecommerViewViewController.m in Sources */,
+				9B5713951DF2A36800ED53FA /* KeruiFlastBtn.m in Sources */,
+				9BBF42F31E02A0AA00EE5265 /* KeruiVideView.m in Sources */,
+				9B1BA3E81DF0022E00B58577 /* KeruiLogInViewController.m in Sources */,
+				9B80D7F31DF65DD4004CDCEA /* KeruiHuanCTOOL.m in Sources */,
+				9BEB57561DF9009F009FABE1 /* KeruiAllTableVController.m in Sources */,
+				9B0F1A4C1E050F6700BE51BF /* KRVideoPlayerControlView.m in Sources */,
+				9B3825461E11100D001DA029 /* KeruisenderWorderrViewController.m in Sources */,
+				9BABCCDF1DED421600098116 /* KeruiPostViewController.m in Sources */,
+				9B43DFEB1E0A6FFF008F3E1C /* NSString+XFTime.m in Sources */,
+				9B43DFE71E0A6FCE008F3E1C /* XFVociePlayerController.m in Sources */,
+				9B58F7FE1DED2D03001DA0AF /* AppDelegate.m in Sources */,
+				9BABCCD01DED3FE100098116 /* keruiTabbarController.m in Sources */,
+				9B4D89341DEDC93F00872D04 /* KeruiADviewController.m in Sources */,
+				9B43DFE01E0A615C008F3E1C /* KeruiTopALLViewController.m in Sources */,
+				9BE5B4181E00D99600D88903 /* KeruiMainViewCell.m in Sources */,
+				9B9E3D5F1E096ADD0020C88C /* KeruiVoicece.m in Sources */,
+				9BABCCE21DED424C00098116 /* KeruiNavgationController.m in Sources */,
+				9BAF32CA1DF409060095546E /* KeruiItemcolllec.m in Sources */,
+				9BEB575F1DF900F8009FABE1 /* KeruiPicteViewController.m in Sources */,
+				9B61890F1E0BAAD700D1DA6B /* Keruiuser.m in Sources */,
+				9B61890C1E0BA97200D1DA6B /* KeruiRecommed.m in Sources */,
+				9BEB57591DF900C5009FABE1 /* KeruiVideoViewController.m in Sources */,
+				9B4D892D1DEDB0FF00872D04 /* UIBarButtonItem+KeruiItem.m in Sources */,
+				9BABCCD31DED41B700098116 /* Keruidistill.m in Sources */,
+				9B2A0B9C1DFA3A6100F44D5C /* KeruiConGes.m in Sources */,
+				9B6189131E0BAF9700D1DA6B /* KeruiRecommedViewCell.m in Sources */,
+				9BABCCD61DED41CF00098116 /* KeruiNewsController.m in Sources */,
+				9B6330071DED6B7500A4C6B7 /* UIImage+image.m in Sources */,
+				9B4D892A1DEDAEAA00872D04 /* KeruiNavController.m in Sources */,
+				9B58F7FB1DED2D03001DA0AF /* main.m in Sources */,
+				9B63300A1DED763200A4C6B7 /* KeruitabBar.m in Sources */,
+				9BB49B101DEECE3F007C9CAF /* KeruiDingruViewController.m in Sources */,
+				9BABCCD91DED41E700098116 /* KeruiFoucscontroller.m in Sources */,
+				9BBF42E91E029F9A00EE5265 /* KeruipichterView.m in Sources */,
+				9B6189181E0BAFB200D1DA6B /* KeruiuserViewCell.m in Sources */,
+				9B0A00431E07B8C000FB3C7E /* KeruiSeebigpicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F80B1DED2D03001DA0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B58F8141DED2D03001DA0AF /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58F8161DED2D03001DA0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B58F81F1DED2D03001DA0AF /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B58F8111DED2D03001DA0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B58F7F51DED2D03001DA0AF /* 百思不得姐 */;
+			targetProxy = 9B58F8101DED2D03001DA0AF /* PBXContainerItemProxy */;
+		};
+		9B58F81C1DED2D03001DA0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B58F7F51DED2D03001DA0AF /* 百思不得姐 */;
+			targetProxy = 9B58F81B1DED2D03001DA0AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B58F8021DED2D03001DA0AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B58F8031DED2D03001DA0AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B58F8071DED2D03001DA0AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B58F8081DED2D03001DA0AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B58F8211DED2D03001DA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B58F8221DED2D03001DA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B58F8241DED2D03001DA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F07A3746F824F35D0DC408 /* Pods-百思不得姐.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWBBX3W7KE;
+				GCC_PREFIX_HEADER = "百思不得姐/Bsidj.h";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B58F8251DED2D03001DA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADC01CAFD98B60C7EBEF0BF /* Pods-百思不得姐.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWBBX3W7KE;
+				GCC_PREFIX_HEADER = "百思不得姐/Bsidj.h";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B58F8271DED2D03001DA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Debug;
+		};
+		9B58F8281DED2D03001DA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Release;
+		};
+		9B58F82A1DED2D03001DA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B58F82B1DED2D03001DA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huoche.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B58F7F11DED2D03001DA0AF /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58F8211DED2D03001DA0AF /* Debug */,
+				9B58F8221DED2D03001DA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B58F8231DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58F8241DED2D03001DA0AF /* Debug */,
+				9B58F8251DED2D03001DA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B58F8261DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58F8271DED2D03001DA0AF /* Debug */,
+				9B58F8281DED2D03001DA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B58F8291DED2D03001DA0AF /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58F82A1DED2D03001DA0AF /* Debug */,
+				9B58F82B1DED2D03001DA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B58F7EE1DED2D03001DA0AF /* Project object */;
+}

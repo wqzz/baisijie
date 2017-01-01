@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeruiLogInViewController">
+            <connections>
+                <outlet property="BottomView" destination="n1b-Q2-2vd" id="eP6-AM-c3l"/>
+                <outlet property="LeadCons" destination="iIH-r0-Skg" id="Vau-Hu-he1"/>
+                <outlet property="MidView" destination="pQ3-xl-y1l" id="EyI-XP-kJ8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="yt5-6Y-qH7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_register_background" translatesAutoresizingMaskIntoConstraints="NO" id="JTg-fR-39k">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKk-6R-jUX">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXP-dG-K2I">
+                            <rect key="frame" x="3" y="12" width="48" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="GPt-Fy-N7r"/>
+                            </constraints>
+                            <state key="normal" image="navigationbar_back_highlighted"/>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="n9Y-Pk-3iU"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-6M-KOc">
+                            <rect key="frame" x="285" y="15" width="80" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="Upw-3p-K89"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="注册登录？"/>
+                            <state key="selected" title="登录"/>
+                            <state key="highlighted" title="登录"/>
+                            <connections>
+                                <action selector="resgLogin:" destination="-1" eventType="touchUpInside" id="toO-hx-VXg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="dXP-dG-K2I" firstAttribute="leading" secondItem="gKk-6R-jUX" secondAttribute="leading" constant="3" id="B0O-wX-aeU"/>
+                        <constraint firstAttribute="trailing" secondItem="PYv-6M-KOc" secondAttribute="trailing" constant="10" id="BXR-28-7oN"/>
+                        <constraint firstItem="PYv-6M-KOc" firstAttribute="top" secondItem="gKk-6R-jUX" secondAttribute="top" constant="15" id="ZPR-1p-ZPR"/>
+                        <constraint firstAttribute="height" constant="45" id="cIn-Qb-VkZ"/>
+                        <constraint firstItem="dXP-dG-K2I" firstAttribute="top" secondItem="gKk-6R-jUX" secondAttribute="top" constant="12" id="mOs-wO-Scp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQ3-xl-y1l" userLabel="MIdView">
+                    <rect key="frame" x="0.0" y="184" width="750" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="JYf-7o-p0Q"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1b-Q2-2vd">
+                    <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="tDk-CU-UEY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gKk-6R-jUX" secondAttribute="trailing" id="3HW-Go-FRc"/>
+                <constraint firstAttribute="trailing" secondItem="JTg-fR-39k" secondAttribute="trailing" id="FHh-Z6-Jqe"/>
+                <constraint firstAttribute="trailing" secondItem="n1b-Q2-2vd" secondAttribute="trailing" id="FXF-tk-okm"/>
+                <constraint firstAttribute="trailing" secondItem="pQ3-xl-y1l" secondAttribute="trailing" id="MMe-uP-Wgx"/>
+                <constraint firstItem="gKk-6R-jUX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OAm-Q8-WN6"/>
+                <constraint firstItem="pQ3-xl-y1l" firstAttribute="width" secondItem="n1b-Q2-2vd" secondAttribute="width" multiplier="2" id="SbV-L7-jx5"/>
+                <constraint firstItem="JTg-fR-39k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aKU-qr-MAR"/>
+                <constraint firstItem="pQ3-xl-y1l" firstAttribute="top" secondItem="gKk-6R-jUX" secondAttribute="bottom" constant="139" id="abD-v5-3pf"/>
+                <constraint firstItem="pQ3-xl-y1l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iIH-r0-Skg"/>
+                <constraint firstAttribute="bottom" secondItem="JTg-fR-39k" secondAttribute="bottom" id="jlo-gu-BUs"/>
+                <constraint firstItem="gKk-6R-jUX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o9J-yh-lAU"/>
+                <constraint firstItem="n1b-Q2-2vd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oSg-NN-P8x"/>
+                <constraint firstItem="JTg-fR-39k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x9A-P1-6oP"/>
+                <constraint firstAttribute="bottom" secondItem="n1b-Q2-2vd" secondAttribute="bottom" id="zxc-JG-vPV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="MMe-uP-Wgx"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_register_background" width="320" height="568"/>
+        <image name="navigationbar_back_highlighted" width="30" height="30"/>
+    </resources>
+</document>
